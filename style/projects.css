@@ -1,0 +1,109 @@
+#boxs{
+    display: flex;
+    flex-wrap: wrap; 
+    position: relative;
+    right: 40px;
+}
+html{
+
+}
+.project{
+    height: 350px;
+    width: 350px;
+    padding: 20px;
+    margin: 30px;
+    position: relative;
+    overflow: hidden;
+    height: 300px; /* Adjust height as needed */
+    background-color: black; /* Example background for project */
+     /* Spacing between projects */
+     position: relative; /* Ensure positioning context for absolute child */
+     overflow: hidden; /* Hide overflow to prevent showing content outside */
+     cursor: pointer; 
+     border: 1px solid #ccc;
+     box-shadow: 0 0px 10px rgba(38, 12, 104, 0.75), 0 12px 40px rgba(0, 0, 0, 0.2);
+   
+}
+.cover{
+    
+    height: 100%;
+    width: 100%;
+    
+    position: relative;
+    bottom: 20px;
+    right: 20px; 
+    position: absolute;
+    bottom: -100%; /* Initially hidden */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: lightgray;
+    transition: bottom 0.5s ease; /* Smooth transition */
+    color: rgba(24, 21, 21, 0.847);
+}
+.svg-box{
+   position: relative;
+   bottom: 0%;
+   left:70%;
+}
+
+.gitpp{
+    height: 45px;
+    width: 45px;
+   
+    
+}
+#git{
+    position: relative;
+    right: 100px;
+    
+}
+#arrow{
+    position: relative;
+    right: 15px;
+    height: 45px;
+    width: 45px;
+    top: 2px;
+}
+.bottom{
+    background-color: rgb(236, 228, 229);
+    height: 60.33px;
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    margin-top: 220px;
+    right: 20px;
+
+}
+span{
+    font-weight: bold;
+    font-size: larger;
+}
+.project-heading{
+    position: relative;
+    bottom: 20px;
+    color: #50B498;
+    font-weight: bold;
+
+}
+.dot{
+    position: relative;
+    bottom: 68px; 
+    left: 340px;
+    color: #50B498;
+    font-weight: bold;
+
+}
+.pragraph{
+    position: relative;
+    bottom: 75px;
+    font-size:medium;
+    font-weight: 200;
+    color: black;
+    font-family: Arial Verdana Helvetica;
+}
+.bi-x-lg{
+    position: relative;
+    bottom: 360px;
+    left: 87%;
+}
